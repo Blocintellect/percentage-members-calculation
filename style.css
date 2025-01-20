@@ -123,3 +123,16 @@
         font-size: 0.9rem;
       }
     }
+
+    .last-updated {
+      position: absolute;
+      top: 10px; /* Distance from the top of the screen */
+      left: 10px; /* Distance from the left of the screen */
+      font-family: Arial, sans-serif;
+      font-size: 0.9rem;
+      color: #5c5b10;
+      background-color: #c4c4c4; /* Optional: Add a background for better visibility */
+      padding: 5px 10px; /* Optional: Add padding for better spacing */
+      border-radius: 5px; /* Optional: Rounded corners */
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    }
