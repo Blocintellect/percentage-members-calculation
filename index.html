@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Company Ownership</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <button id="theme-toggle">Toggle Theme</button>
+  <h1>Company Ownership</h1>
+  <p>Update the contributions of founder/co-founders to see the updated ownership percentages.</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Contribution ($)</th>
+        <th>Ownership (%)</th>
+      </tr>
+    </thead>
+    <tbody id="employees">
+      <tr>
+        <td data-name="Eskandar">Eskandar</td>
+        <td><input type="number" value="5000" data-name="A" onchange="updateOwnership()"></td>
+        <td class="ownership" data-name="A">20.00%</td>
+      </tr>
+      <tr>
+        <td data-name="Ali">Ali</td>
+        <td><input type="number" value="5000" data-name="B" onchange="updateOwnership()"></td>
+        <td class="ownership" data-name="B">20.00%</td>
+      </tr>
+      <tr>
+        <td data-name="Yonas">Yonas</td>
+        <td><input type="number" value="5000" data-name="C" onchange="updateOwnership()"></td>
+        <td class="ownership" data-name="C">20.00%</td>
+      </tr>
+      <tr>
+        <td data-name="Joshua">Joshua</td>
+        <td><input type="number" value="5000" data-name="D" onchange="updateOwnership()"></td>
+        <td class="ownership" data-name="D">20.00%</td>
+      </tr>
+      <tr>
+        <td data-name="Alex">Alex</td>
+        <td><input type="number" value="5000" data-name="E" onchange="updateOwnership()"></td>
+        <td class="ownership" data-name="E">20.00%</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <script src="app.js" > </script>
+</body>
+</html>
